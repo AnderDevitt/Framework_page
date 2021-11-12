@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>My portfolio page framework</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- My stylesheet-->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <h3>A website created by me.</h3>
+</div>
+
+<div class="navbar">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="flex-container">
+    <div class="blank-side-area">1</div>
+    <div class="main-content-area">
+
+        <h1>The Lorem Ipsum Saga</h1>
+
+        <!--content solid border-->
+        <section class="content-type-S">
+            <h2>Episode 1: The Phantom Lorem Ipsum</h2>
+            
+            <img class="content-image-left" src="./kyudo3_800.jpg" alt="me doing Japanese archery">
+            
+            <div class="content-text">
+                <p>Content goes here but I'm having trouble making it all fit the way thay I want it to.</p>
+                <p>So I'm redoing all of it even though I'd rather play a game or sleep.</p>
+                <br>
+                <h3>Learning</h3>
+                <p><strong>So <u>what did I learn</u> with these <em>article/section</em> boxes?</strong></p>
+                
+                <p>
+                    <ol>
+                        <li>Check and check again for typos in your class/id names. So many times I either changed a name in the html and forgot in the css, or I made a typing error on one page.</li>
+                        <li>Sometimes you do need to <strong>nest flex-containers</strong>. I have a .flex-container for the main central 3-column layout (blue background which is visible only when I have errors). The middle column (red) is also a flex container.</li>
+                        <li>Styling text elements like heading and paragraph tage and images is done in the flex-container for the flex-items that contain them. This pink section is the flex-item. The red div is its container. The html elements here belong to the container.</li>
+                        <li> Many of my errors this week were due to my lack of understanding of this.</li>
+                        <li>I needed to make the red and green divs flex-basis 70% and 15%(each green)</li>
+                        <li>The items within the containers are fixed width relative to the container. So each pink section within the red is width: 90% of the red. (with margins of 15px and ppadding of 10px.</li>
+                    </ol>
+                </p>
+            </div>
+        </section>
+
+        <!--content dotted border-->
+        <section class="content-type-D">
+            <h2>Episode 2: The Clone Lorem Ipsum</h2>
+
+            <img class="content-image-center" src="./kyudo3_800.jpg" alt="me doing Japanese archery">
+            <h3>Released in Japan under the title: The Lorum Ipsum Wars</h3>
+            <p>I'm so tired it's just fuck-up after fuck-up right now. Over and over and over again.</p>
+            <p>I'm doing typos. I'm minning tag changes...</p>
+            <p>but I'm too scared to stop!</p>
+        </section>
+
+        <!--content solid border-->
+        <section class="content-type-S">
+            <h2>Episode 3: The Revenge of the Lorem Ipsum</h2>
+            <p>Yes, I stole that idea, but only for this test page. I was dying to name 
+                all of the saga titles in class. </p>
+            <p>Could I name them all...?</p>
+        </section>
+
+        <!--content dotted border-->
+        <section class="content-type-D">
+            <h2>Future releases!</h2>
+            <h3>Coming to a web page in a coding class near you</h3>
+            <ul>
+                <li>A New Lorem Ipsum <em>- someone has changed the text!</em></li>
+                <li>The <em>real</em> Lorem Ipsum Strikes Back</li>
+                <li>The Return of the Lorem Ipsum</li>
+            </ul>
+            
+        </section>
+
+    </div>
+    <div class="blank-side-area">3</div>  
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>

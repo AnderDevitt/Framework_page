@@ -1,0 +1,155 @@
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+    }
+    
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+    
+    /* Style the top navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: DodgerBlue;
+      }
+      
+      .blank-side-area {
+        background-color: greenyellow;
+        flex-basis: 15%; 
+      }
+      .main-content-area {
+        background-color: red;
+        flex-basis: 70%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+
+      /*position and style text elements*/
+    
+    h1 {text-align: center}
+    h2 {text-align: center}
+    h3 {text-align: center}
+
+    p {
+        text-align: justify;
+        margin: 20px;
+    }
+    li {
+        text-align: justify;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    
+/*-------------------------HOW DO I MAKE TEXT WRAP AROUND AN IMAGE TO THE RIGHT AND BOTTOM IF I WANT????---------------*/
+    .content-image-left {
+        background-color: yellow;
+        margin: 20px;
+        max-width: 30%;
+        padding: 10px;
+        object-fit: contain;
+        align-self: flex-start; 
+    }
+    .content-image-center {
+        background-color: hotpink;
+        margin: 20px;
+        max-width: 30%;
+        padding: 10px;
+        object-fit: contain;
+        align-self: center; 
+    }
+
+    .content-text {
+        background-color:indigo;
+        text-align: justify;
+        /*flex: 1 1 auto;*/
+    }
+    /*content*/
+    .content-type-S {
+        margin: 15px;
+        border: black 4px solid;
+        background-color: pink;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }  
+    
+    .content-type-D {
+        margin: 15px;
+        border: black 4px dotted;
+        background-color: grey;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }  
+   
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+   /* @media screen and (max-width: 700px) {
+      .row {   
+        flex-direction: column;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+ /*   @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
